@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-function guess(){
+function guess_game(){
     actual_num=$(ls -l |grep "^-"|wc -l)
     while true;
     do
