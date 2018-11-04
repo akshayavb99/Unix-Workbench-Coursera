@@ -1,7 +1,7 @@
+
 all: README.md
 
 README.md:
-	echo '# Makefile for guessinggame.sh bash script.\n' > README.md
-	echo '* Makefile creation at: $(shell date +%Y-%m-%d:%H:%M:%S).\n' >> README.md
-        echo '* Number of lines in the guessinggame.sh: $(shell wc -l < guessinggame.sh). \n' >> README.md
-
+	echo '# Guessing Game Bash Script for Unix Workbench\n' > README.md
+	echo '* This Make file was ran at: $(shell date +%Y-%m-%d:%H:%M:%S)\n' >> README.md
+	echo '* There were $(shell wc -l < guessinggame.sh) lines in guessinggame.sh\n' >> README.md
